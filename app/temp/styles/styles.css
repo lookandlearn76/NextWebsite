@@ -1137,6 +1137,7 @@ a {
 .site-footer__text {
   display: block;
   margin-bottom: 1rem;
+  font-weight: 200;
 }
 
 @media(min-width: 800px) {
