@@ -1251,6 +1251,10 @@ a {
     padding: 12px 0;
     background-color: transparent;
   }
+
+  .primary-nav a.is-current-link {
+    color: #fabb69;
+  }
 }
 
 /*Do not edit modules/_sprite directly as it is generated automatically by Gulp*/
