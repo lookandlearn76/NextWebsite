@@ -25,12 +25,12 @@ class Modal {
   }
 
   openModal() {
-    this.modal.addClass('modal--is-visible');
+    this.modal.addClass("modal--is-visible");
     return false;
   }
 
   closeModal() {
-    this.modal.removeClass('modal--is-visible');
+    this.modal.removeClass("modal--is-visible");
   }
 }
 

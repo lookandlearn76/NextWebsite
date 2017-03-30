@@ -35,7 +35,6 @@ class StickyHeader {
         } else {
           that.siteHeader.removeClass('site-header--dark');
         }
-        offset: '20%'
       }
     });
   }

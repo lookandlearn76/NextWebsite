@@ -10357,7 +10357,7 @@
 	  function MobileMenu() {
 	    _classCallCheck(this, MobileMenu);
 
-	    this.menuIcon = (0, _jquery2.default)(".site-header__menu-icon");
+	    this.menuIcon = (0, _jquery2.default)(".site-header");
 	    this.siteHeader = (0, _jquery2.default)(".site-header");
 	    this.menuContent = (0, _jquery2.default)(".site-header__menu-content");
 	    this.events();
@@ -10407,12 +10407,12 @@
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	var RevealOnScroll = function () {
-	  function RevealOnScroll(elements, offset) {
+	  function RevealOnScroll(els, offset) {
 	    _classCallCheck(this, RevealOnScroll);
 
-	    this.itemsToReveal = elements;
-	    this.hideInitially();
+	    this.itemsToReveal = els;
 	    this.offsetPercentage = offset;
+	    this.hideInitially();
 	    this.createWaypoints();
 	  }
 
@@ -11272,7 +11272,6 @@
 	          } else {
 	            that.siteHeader.removeClass('site-header--dark');
 	          }
-	          offset: '20%';
 	        }
 	      });
 	    }
@@ -11710,13 +11709,13 @@
 	  }, {
 	    key: 'openModal',
 	    value: function openModal() {
-	      this.modal.addClass('modal--is-visible');
+	      this.modal.addClass("modal--is-visible");
 	      return false;
 	    }
 	  }, {
 	    key: 'closeModal',
 	    value: function closeModal() {
-	      this.modal.removeClass('modal--is-visible');
+	      this.modal.removeClass("modal--is-visible");
 	    }
 	  }]);
 
